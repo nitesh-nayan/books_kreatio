@@ -20,7 +20,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-
+gem "gritter", "1.0.3"
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
@@ -43,3 +43,8 @@ end
 
 # Use debugger
 gem 'debugger', group: [:development, :test]
+
+gem 'grim'
+gem 'will_paginate'
+gem 'sunspot_rails'
+gem 'sunspot_solr'

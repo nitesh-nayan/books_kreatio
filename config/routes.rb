@@ -1,4 +1,11 @@
 BooksKreatio::Application.routes.draw do
+  get "books/about"
+  get "books/boks"
+  get "books/category"
+  get "books/contact"
+  get "books/find"
+  get "books/my_account"
+  get "books/new"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
