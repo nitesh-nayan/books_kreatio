@@ -21,3 +21,5 @@ module BooksKreatio
     # config.i18n.default_locale = :de
   end
 end
+
+Khoj lo to jane

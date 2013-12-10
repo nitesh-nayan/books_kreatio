@@ -5,11 +5,7 @@
 #   gem 'sqlite3'
 development:
   adapter: postgresql
-<<<<<<< HEAD
-  database: books_kreatio_dbs
-=======
   database: books_kreatio_db
->>>>>>> b499aee29fe220f045e5637eedd15072a7b276d0
   pool: 5
   timeout: 5000
 
