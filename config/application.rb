@@ -22,4 +22,3 @@ module BooksKreatio
   end
 end
 
-Khoj lo to jane
