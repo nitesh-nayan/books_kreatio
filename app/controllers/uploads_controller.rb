@@ -1,9 +1,9 @@
 class UploadsController < ApplicationController
   def index
-    render :file => 'app\views\upload\uploadfile.rhtml'
+    render :file => 'app\views\uploads\uploadfile.rhtml'
   end
 
-  def uploadFile
+  def uploadfile
     post = StoreBook.save(params[:dafile], request.remote_ip)
 
     Grim.reap(params[:dafile].path)

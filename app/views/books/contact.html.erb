@@ -1,62 +1,59 @@
-<div class="center_content">
-	<div class="left_content">
-		<div class="title">
-			<span class="title_icon"> <img src="/assets/icon_contact.gif" alt="" title="" /></span>Contact Us
-
-		</div>
-
-		<div class="feat_prod_box_details">
-			<p class="details">
-
-				I would love to hear on how you like/dislike BookStore.net. Mail me on
-				<a href="http://www.kreatio.com">feedback@bookstore.net</a> or submit this small form.
-				Ideas and suggestions are welcome.
-			</p>
-
-			<div class="contact_form">
-				<div class="form_subtitle">
-					All fields are requierd
-				</div>
-
-				<% flash.each do |key, value| %>
-				<div class="alert-show">
-					<%= value %>
-				</div>
-				<% end %>
-				<%= form_tag books_create_url do %>
-				<p>
-					<%= label_tag :name %>
-					<br />
-					<%= text_field_tag "books[name]" %>
-				</p>
-				<p>
-					<%= label_tag :email %>
-					<br />
-					<%= text_field_tag "books[email]" %>
-				</p>
-				<p>
-					<%= label_tag :phone %>
-					<br />
-					<%= text_field_tag "books[phone]" %>
-				</p>
-
-				<p>
-					<%= label_tag :message %>
-					<br />
-					<textarea name="books[message]" style="height: 55px; width: 230px;"></textarea>					
+ <div class="center_content">
+       	<div class="left_content">
+            <div class="title">
+            	<span class="title_icon">
+            		<img src="/assets/icon_contact.gif" alt="" title="" /></span>Contact Us
+            		
+            		</div>
+       
+        	<div class="feat_prod_box_details">
+            <p class="details">
+            
  
-
-				</p>
-
-				<%= submit_tag("Send")%>
-				<br />
-
-				<% end %>
-
-			</div>
-		</div>
-		<div class="clear"></div>
-	</div>
-
-</div>
-
+I would love to hear on how you like/dislike BookStore.net. Mail me on 
+<a href="http://www.kreatio.com">feedback@bookstore.net</a> or submit this small form.
+ Ideas and suggestions are welcome. </p>
+            
+              	<div class="contact_form">
+                <div class="form_subtitle">All fields are requierd</div> 
+    
+<% flash.each do |key, value| %>
+		<div class="alert-show"><%= value %></div>
+			   <% end %>
+ <%= form_tag books_create_url do %>
+  <p>
+    <%= label_tag :name %><br />
+    <%= text_field_tag "books[name]" %>
+  </p>
+       <p>
+    <%= label_tag :email %><br />
+    <%= text_field_tag "books[email]" %>
+  </p>
+  <p>
+    <%= label_tag :phone %><br />
+    <%= text_field_tag "books[phone]" %>
+  </p>
+ 
+  <p>
+    <%= label_tag :message %><br />
+    <textarea name="books[message]" style="height: 55px; width: 230px;"></textarea>
+ 
+  </p>
+  
+      <%= submit_tag("Send")%> <br />
+    
+    <% end %> 
+               
+</div>  
+   </div>
+ <div class="clear"></div>
+        </div>
+ 
+ 
+    </div>
+    
+    
+    
+    
+    
+       

@@ -3,7 +3,7 @@
 	<head>
 
 		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
-		<title>KreatioBook</title>
+		<title>Books Kreatio</title>
 		<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
 		<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 		<%= csrf_meta_tags %>
@@ -45,7 +45,6 @@
 				<div class="left_content">
 					<%= yield %>
 				</div><!--end of left content-->
-
 				<div class="right_content">
 
 					<%= form_tag books_find_path, :method => :get do %>
@@ -60,23 +59,22 @@
 					</p>
 
 					<div class="cart">
-						<div class="title">
-							<span class="title_icon"> <a href="http://www.facebook.com" target="_blank"><img src="/assets/fb.png" alt="" title="" /></a> <a href="http://www.twitter.com" target="_blank"><img src="/assets/tw.png" alt="" title="" border="0" /></a> <a href="http://www.kreatio.com" target="_blank"><img src="/assets/rs.png" alt="" title="" border="0" /></a> <a href="http://www.gmail.com" target="_blank"><img src="/assets/ma.png" alt="" title="" /></a> <a href="http://www.kreatio.com/static/contact" target="_blank"><img src="/assets/ph.png" alt="" title="" border="0" /></a> </span>
-						</div>
+						
 					</div>
 
 					<div class="title">
 						<span class="title_icon"> <img src="/assets/bullet3.gif" alt="" title="" /></span>About Our Store
 					</div>
+					
 					<div class="about">
+
+						<img src="/assets/about.gif" alt="" title="" class="right" />
 						<p>
-							<img src="/assets/about.gif" alt="" title="" class="right" />
-							<p>
-								BookStore.net is a super quick and simple search engine for books that helps
-								you find the price and availability of books across various online bookstores.
-								It also provides user store reviews, which further help users to choose
-								the best deal on the right store.
-							</p>
+							BookStore.net is a super quick and simple search engine for books that helps
+							you find the price and availability of books across various online bookstores.
+							It also provides user store reviews, which further help users to choose
+							the best deal on the right store.
+						</p>
 
 					</div>
 
@@ -85,8 +83,8 @@
 						<div class="title">
 							<span class="title_icon"><img src="/assets/bullet4.gif" alt="" title="" /> </span>Related Books
 						</div>
+
 						<div class="new_prod_box">
-							<a href='<%= Book.find(12).file%>' target="_blank" >Beginning XML</a>
 
 							<div class="new_prod_bg">
 								<span class="new_icon"> </span>
@@ -97,7 +95,6 @@
 						</div>
 
 						<div class="new_prod_box">
-							<a href='<%= Book.find(13).file%>' target="_blank" >Professional Ajax</a>
 
 							<div class="new_prod_bg">
 								<span class="new_icon"> </span>
@@ -108,7 +105,6 @@
 						</div>
 
 						<div class="new_prod_box">
-							<a href='<%= Book.find(14).file%>' target="_blank" >Pro Git</a>
 
 							<div class="new_prod_bg">
 								<span class="new_icon"> </span>
