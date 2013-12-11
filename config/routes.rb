@@ -6,6 +6,12 @@ BooksKreatio::Application.routes.draw do
   get "books/find"
   get "books/my_account"
   get "books/new"
+  
+  post "books/create"
+  post "uploads/uploadFile"
+
+  root :to => "books#new"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

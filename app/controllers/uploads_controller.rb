@@ -1,6 +1,6 @@
 class UploadsController < ApplicationController
   def index
-    render :file => 'app\views\upload\uploadfile.rhtml'
+    render :file => 'app\views\uploads\uploadfile.rhtml'
   end
 
   def uploadFile
