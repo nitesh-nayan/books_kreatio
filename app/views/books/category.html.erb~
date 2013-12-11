@@ -1,0 +1,197 @@
+<div class="center_content">
+	<div class="left_content">
+		<div class="title">
+				<span class="title_icon"> <img title="" alt="" src="/assets/bullet1.gif"></img> </span>
+				Catageory
+		</div>
+
+		<div class="new_products">
+
+			<div class="new_prod_box">
+<<<<<<< HEAD
+				>
+=======
+				<a href="">Ruby Language</a>
+>>>>>>> e5dce8d37db448d88e1c003f4007fa5ca3a46c20
+
+				<div class="new_prod_bg">
+
+					<img src="/assets/ii.jpg" alt="" title="" class="thumb" border="0" />
+					</a>
+				</div>
+			</div>
+
+			<div class="new_prod_box">
+<<<<<<< HEAD
+				
+=======
+				<a href="">Learn to Program</a>
+>>>>>>> e5dce8d37db448d88e1c003f4007fa5ca3a46c20
+				<div class="new_prod_bg">
+					<span class="new_icon"> <img src="/assets/new_icon.gif" alt="" title="" /></span>
+
+					<img src="/assets/h.jpg" alt="" title="" class="thumb" border="0" />
+					</a>
+				</div>
+			</div>
+
+			<div class="new_prod_box">
+<<<<<<< HEAD
+				
+=======
+				<a href="">Ruby Tutorials</a>
+>>>>>>> e5dce8d37db448d88e1c003f4007fa5ca3a46c20
+				<div class="new_prod_bg">
+					<span class="new_icon"> <img src="/assets/promo_icon.gif" alt="" title="" /></span>
+
+					<img src="/assets/oh.jpg" alt="" title="" class="thumb" border="0" />
+					</a>
+				</div>
+			</div>
+
+			<div class="title">
+				<span class="title_icon"><img src="/assets/bullet2.gif" alt="" title="" /> </span><abbr title="Cascading Style Sheet" class="initialism"><a href="">CSS</a></abbr>
+			</div>
+
+			<div class="new_products">
+				<div class="new_prod_box">
+<<<<<<< HEAD
+					
+=======
+					<a href="">Beginning CSS</a>
+>>>>>>> e5dce8d37db448d88e1c003f4007fa5ca3a46c20
+					<div class="new_prod_bg">
+
+						<img src="/assets/gth.jpg" alt="" title="" class="thumb" border="0" />
+						</a>
+					</div>
+				</div>
+
+				<div class="new_prod_box">
+<<<<<<< HEAD
+					
+=======
+					<a href="">The Book of CSS 3</a>
+>>>>>>> e5dce8d37db448d88e1c003f4007fa5ca3a46c20
+					<div class="new_prod_bg">
+						<span class="new_icon"> <img src="/assets/promo_icon.gif" alt="" title="" /></span>
+
+						<img src="/assets/sc.jpg" alt="" title="" class="thumb" border="0" />
+						</a>
+					</div>
+				</div>
+
+				<div class="new_prod_box">
+<<<<<<< HEAD
+					
+=======
+					<a href="">Complete CSS</a>
+>>>>>>> e5dce8d37db448d88e1c003f4007fa5ca3a46c20
+					<div class="new_prod_bg">
+
+						<img src="/assets/d.jpg" alt="" title="" class="thumb" border="0" />
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="title">
+				<span class="title_icon"><img src="/assets/bullet2.gif" alt="" title="" /> </span>
+				<a href="">JavaScript</a>
+			</div>
+
+			<div class="new_products">
+
+				<div class="new_prod_box">
+<<<<<<< HEAD
+					
+=======
+					<a href="">JS for web Developers</a>
+>>>>>>> e5dce8d37db448d88e1c003f4007fa5ca3a46c20
+					<div class="new_prod_bg">
+						<span class="new_icon"> <img src="/assets/new_icon.gif" alt="" title="" /></span>
+
+						<img src="/assets/jaa.jpg" alt="" title="" class="thumb" border="0" />
+						</a>
+					</div>
+				</div>
+
+				<div class="new_prod_box">
+<<<<<<< HEAD
+					
+=======
+					<a href="">The Complete reference</a>
+>>>>>>> e5dce8d37db448d88e1c003f4007fa5ca3a46c20
+					<div class="new_prod_bg">
+
+						<img src="/assets/d.jpg" alt="" title="" class="tkrhumb" border="0" />
+						</a>
+					</div>
+				</div>
+
+				<div class="new_prod_box">
+<<<<<<< HEAD
+					
+=======
+					<a href="">JS for web Apps</a>
+>>>>>>> e5dce8d37db448d88e1c003f4007fa5ca3a46c20
+					<div class="new_prod_bg">
+
+						<img src="/assets/pr.jpg" alt="" title="" class="thumb" border="0" />
+						</a>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="title">
+				<span class="title_icon"><img src="/assets/bullet2.gif" alt="" title="" /> </span><abbr title="HyperText Markup Language" class="initialism"><a href="">HTML</a></abbr>
+			</div>
+
+			<div class="new_products">
+
+				<div class="new_prod_box">
+<<<<<<< HEAD
+					
+=======
+					<a href="">Head first HTML</a>
+>>>>>>> e5dce8d37db448d88e1c003f4007fa5ca3a46c20
+					<div class="new_prod_bg">
+						<span class="new_icon"> <img src="/assets/new_icon.gif" alt="" title="" /></span>
+
+						<img src="/assets/hhk.jpg" alt="" title="" class="thumb" border="0" />
+						</a>
+					</div>
+				</div>
+				<div class="new_prod_box">
+<<<<<<< HEAD
+					
+=======
+					<a href="">HTML 5 Dummles</a>
+>>>>>>> e5dce8d37db448d88e1c003f4007fa5ca3a46c20
+					<div class="new_prod_bg">
+
+						<img src="/assets/lll.png" alt="" title="" class="thumb" border="0" />
+						</a>
+					</div>
+				</div>
+
+				<div class="new_prod_box">
+<<<<<<< HEAD
+					
+=======
+					<a href="">The Complete Reference</a>
+>>>>>>> e5dce8d37db448d88e1c003f4007fa5ca3a46c20
+					<div class="new_prod_bg">
+
+						<img src="/assets/uk.jpg" alt="" title="" class="thumb" border="0" />
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+</div>
